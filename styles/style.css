@@ -9,7 +9,7 @@
     width: 600px;
     height: 550px;
     border: solid;
-    border-color: beige;
+    border-color: red;
 }
 
 .fullpage {
@@ -17,13 +17,32 @@
     margin: 0%;
     display: flex;
     flex-direction: column;
+    background: burlywood;
 }
 
+.image-caption{
+    text-align: justify;
+}
+
+.main-footer {
+    background: 1e1f26;
+    height: 65px;
+}
+.footer-text {
+    color: cornsilk;
+    }
+}
 h1 {
-    display: center;
+    display: flex;
     color: brown;
+    justify-content: center;
 }
 
 body {
-    min-width: 320px;    
+    width: auto;    
+}
+
+p {
+    display: flex;
+    justify-content: center;
 }
