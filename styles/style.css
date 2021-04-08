@@ -1,0 +1,29 @@
+.main-header {
+    background: #1e1f26;
+    height: 65px;
+}
+
+.image-class {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 550px;
+    border: solid;
+    border-color: beige;
+}
+
+.fullpage {
+    padding-bottom: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: center;
+    color: brown;
+}
+
+body {
+    min-width: 320px;    
+}
