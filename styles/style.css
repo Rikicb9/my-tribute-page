@@ -20,6 +20,13 @@
     background: burlywood;
 }
 
+.div-class {
+    display: flexbox;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 .image-caption{
     text-align: justify;
 }
@@ -31,11 +38,19 @@
 .footer-text {
     color: cornsilk;
     }
-}
-h1 {
-    display: flex;
+
+.h1-class {
     color: brown;
-    justify-content: center;
+    text-align: center;  
+}
+
+.h2-class {
+    color: brown;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 body {
