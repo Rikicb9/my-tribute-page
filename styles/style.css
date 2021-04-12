@@ -31,14 +31,6 @@
     text-align: justify;
 }
 
-.main-footer {
-    background: 1e1f26;
-    height: 65px;
-}
-.footer-text {
-    color: cornsilk;
-    }
-
 .h1-class {
     color: brown;
     text-align: center;  
@@ -53,11 +45,15 @@ img {
     height: auto;
 }
 
-body {
-    width: auto;    
+.img-footer {
+    text-align: center;
 }
 
-p {
+footer {
     display: flex;
+    color: cornsilk;
+    height: 65px;
+    align-items: center;
+    background: #1e1f26;
     justify-content: center;
 }
