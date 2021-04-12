@@ -10,6 +10,7 @@
     height: 550px;
     border: solid;
     border-color: red;
+    
 }
 
 .fullpage {
@@ -28,7 +29,13 @@
 }
 
 .image-caption{
-    text-align: justify;
+    text-align: center;
+    font-size: 15px;
+}
+
+.img-div {
+    padding-left: 10px;
+    padding-right: 14px;
 }
 
 .h1-class {
@@ -43,10 +50,6 @@
 img {
     max-width: 100%;
     height: auto;
-}
-
-.img-footer {
-    text-align: center;
 }
 
 footer {
